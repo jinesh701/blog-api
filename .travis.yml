@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: a4yb6+EmAZ2CBgxKagPmD6NffUMNLIKR08/k2OWWj84ojZJtjB5/XnD/S/v+H7HR2HAmXpu4GbeLiaXfj03dLDZbzhl+6Wz/Xxtc3bT69iTbS8G/N3Ce58crUXRj28icj54YTuARsx85XWiC9uVErMN85c/hUDtg6+FwE70yk1k1qSCwiHflYnr9L4ILYVtr/Lsqduna6bcjIB4YHFigDVx8eNCynx5dtmtO8DtOEHtVCG5XBmbZA0i9C4JF5F0ZMyzcOvOGldVb7tN9egdHopY0ID1LyVFx1QGOHHrGsIgKgQnGzb8p/UCYWMk+y495DJbgTHg8sxdcmWOQDJGBDn3cqzEt3sWBC+Dg2gq1mj26TbQqcPtAoPjA9AekO44fiVTRoLuU3/WUsSsYFLN8ED8Do97IADhNerYFSJhR/rM9HpX0p6OLBouWu4IoN2Rus7yPPvJiPKQmdfSSsbu4wfXfTTmP6H4kLZqRnRVjyQ6MSj1LQw2g/hgOW2hcIqV2Bn3+XF3KQhxvTcFPXbiYZg9tMT2RN+ZBHn2TRaskh+J/EQlDwcRyctlVC4DSEuLrsiOrjBtOOeGVEMvN1RlaOEi0wzwMoBqTcRyZkuLJk+z34Omj91Q/Nn7i7c9c+NfqInU+L0aShuThu2VB0ObZI0JFBs1x8sijlsvPlMsp+gw=
+  app: shielded-refuge-79204
+  on:
+    repo: jinesh701/blog-api
