@@ -38,7 +38,7 @@ router.post("/", jsonParser, (req, res) => {
     req.body.content,
     req.body.author
   );
-  return res.status(200).json(item);
+  return res.status(201).json(item);
 });
 
 //DELETE
